@@ -50,6 +50,10 @@ header h1 {
     background-color: #f0f0f0;
 }
 
+#currently p, #currently ul {
+    text-align: left; /* or justify */
+}
+
 #previous-work {
     background-color: #e0f7fa;
 }
@@ -132,7 +136,9 @@ header h1 {
 #previous-work, #previous-work-2 {
     text-align: center;
 }
-
+#previous-work-2 p, #previous-work-2 ul {
+    text-align: left; /* This overrides the text alignment to be left */
+}
 .images-block {
     display: flex;
     flex-direction: column;
